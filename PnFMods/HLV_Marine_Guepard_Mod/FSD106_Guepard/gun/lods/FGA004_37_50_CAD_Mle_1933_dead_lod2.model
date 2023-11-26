@@ -1,0 +1,7 @@
+<FGA004_37_50_CAD_Mle_1933_dead_lod2.model>
+	<castsShadow>	false	</castsShadow>
+	<parent>	PnFMods/HLV_Marine_Guepard_Mod/FSD106_Guepard/gun/lods/FGA004_37_50_CAD_Mle_1933_dead_lod3	</parent>
+	<extent>	10.0000	</extent>
+	<nodefullVisual>	PnFMods/HLV_Marine_Guepard_Mod/FSD106_Guepard/gun/lods/FGA004_37_50_CAD_Mle_1933_dead_lod2	</nodefullVisual>
+	<metaData>	Wargaming | Lesta Studio	</metaData>
+</FGA004_37_50_CAD_Mle_1933_dead_lod2.model>

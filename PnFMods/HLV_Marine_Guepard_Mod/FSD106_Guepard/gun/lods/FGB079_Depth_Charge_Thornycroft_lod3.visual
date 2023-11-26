@@ -1,0 +1,56 @@
+<FGB079_Depth_Charge_Thornycroft_lod3.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+		</transform>
+		<node>
+			<identifier>	Gun	</identifier>
+			<transform>
+				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+			</transform>
+			<node>
+				<identifier>	HP_gunFire1	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.6561 -0.7547 0.0000	</row1>
+					<row2>	0.0000 0.7547 0.6561 0.0000	</row2>
+					<row3>	0.0000 0.0556 0.0331 1.0000	</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>	HP_gunFireEffect	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 0.6561 -0.7547 0.0000	</row1>
+					<row2>	0.0000 0.7547 0.6561 0.0000	</row2>
+					<row3>	0.0000 0.0556 0.0331 1.0000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+		<node>	Gun	</node>
+		<geometry>
+			<vertices>	Gun_lod3Shape.vertices	</vertices>
+			<primitive>	Gun_lod3Shape.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>	TL2_SHIPMAT_PBS_Gun	</identifier>
+					<mfm>	PnFMods/HLV_Marine_Guepard_Mod/FSD106_Guepard/gun/FGB079_Depth_Charge_Thornycroft.mfm	</mfm>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.0157 -0.0016 -0.0297	</min>
+		<max>	0.0157 0.0614 0.0378	</max>
+	</boundingBox>
+</FGB079_Depth_Charge_Thornycroft_lod3.visual>

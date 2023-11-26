@@ -1,0 +1,7 @@
+<FGA035_13_mm76_Hotchkiss_Mle_1930.model>
+	<castsShadow>	false	</castsShadow>
+	<parent>	PnFMods/HLV_Marine_Guepard_Mod/FSD106_Guepard/gun/lods/FGA035_13_mm76_Hotchkiss_Mle_1930_lod1	</parent>
+	<extent>	3.0000	</extent>
+	<nodefullVisual>	PnFMods/HLV_Marine_Guepard_Mod/FSD106_Guepard/gun/FGA035_13_mm76_Hotchkiss_Mle_1930	</nodefullVisual>
+	<metaData>	Wargaming | Lesta Studio	</metaData>
+</FGA035_13_mm76_Hotchkiss_Mle_1930.model>

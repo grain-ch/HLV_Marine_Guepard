@@ -1,0 +1,8 @@
+<FF025_4m_Rangefinder_lod2.model>
+	<exporter>	1.6	</exporter>
+	<parent>	PnFMods/HLV_Marine_Guepard_Mod/FSD106_Guepard/finder/lods/FF025_4m_Rangefinder_lod3	</parent>
+	<nodefullVisual>	PnFMods/HLV_Marine_Guepard_Mod/FSD106_Guepard/finder/lods/FF025_4m_Rangefinder_lod2	</nodefullVisual>
+	<extent>	18.0000	</extent>
+	<castsShadow>	false	</castsShadow>
+	<metaData>	Wargaming | Lesta Studio	</metaData>
+</FF025_4m_Rangefinder_lod2.model>
