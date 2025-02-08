@@ -1,5 +1,5 @@
 <FSD008_Guepard_1940_deckhouse.mfm>
-	<fx>	shaders/std_effects/PBS_ship.fx	</fx>
+	<fx>	shaders/materials/pbs/ship_material.fx	</fx>
 	<collisionFlags>	0	</collisionFlags>
 	<property>	ambientOcclusionMap
 		<Texture>	PnFMods/HLV_Marine_Guepard_Mod/FSD106_Guepard/ship/FSD008_Guepard_1940_deckhouse_ao.dds	</Texture>
@@ -17,16 +17,16 @@
 		<Texture>	PnFMods/HLV_Marine_Guepard_Mod/FSD106_Guepard/ship/FSD008_Guepard_1940_deckhouse_n.dds	</Texture>
 	</property>
 	<property>	g_detailAlbedoInfluence
-		<Float>	0.0000	</Float>
+		<Float>	0.6000	</Float>
 	</property>
 	<property>	g_detailFadeDistance
 		<Float>	5.0000	</Float>
 	</property>
 	<property>	g_detailGlossInfluence
-		<Float>	0.0000	</Float>
+		<Float>	1.0000	</Float>
 	</property>
 	<property>	g_detailNormalInfluence
-		<Float>	0.0000	</Float>
+		<Float>	0.4000	</Float>
 	</property>
 	<property>	g_detailScaleU
 		<Float>	8.0000	</Float>

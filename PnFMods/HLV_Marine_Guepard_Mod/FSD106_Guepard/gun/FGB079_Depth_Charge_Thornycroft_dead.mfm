@@ -11,10 +11,10 @@
 		<Texture>	PnFMods/HLV_Marine_Guepard_Mod/FSD106_Guepard/gun/FGB079_Depth_Charge_Thornycroft_dead_a.dds	</Texture>
 	</property>
 	<property>	metallicGlossMap
-		<Texture>	PnFMods/HLV_Marine_Guepard_Mod/FSD106_Guepard/gun/FGB079_Depth_Charge_Thornycroft_dead_mg.dds	</Texture>
+		<Texture>	PnFMods/HLV_Marine_Guepard_Mod/FSD106_Guepard/gun/ZGB121_Depth_Charge_Thrower_Single_dead_mg.dds	</Texture>
 	</property>
 	<property>	normalMap
-		<Texture>	PnFMods/HLV_Marine_Guepard_Mod/FSD106_Guepard/gun/FGB079_Depth_Charge_Thornycroft_n.dds	</Texture>
+		<Texture>	PnFMods/HLV_Marine_Guepard_Mod/FSD106_Guepard/gun/ZGB121_Depth_Charge_Thrower_Single_n.dds	</Texture>
 	</property>
 	<property>	g_detailAlbedoInfluence
 		<Float>	0.6000	</Float>

@@ -1,38 +1,88 @@
 <FGA035_13_mm76_Hotchkiss_Mle_1930_dead.visual>
-	<node>
-		<identifier>	Scene Root	</identifier>
-		<transform>
-			<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
-			<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
-			<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
-			<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
-		</transform>
+	<skeleton>
 		<node>
-			<identifier>	JGA066_dead	</identifier>
+			<identifier>	Scene Root	</identifier>
 			<transform>
 				<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
 				<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
 				<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
 				<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
 			</transform>
+			<node>
+				<identifier>	JGA066_dead	</identifier>
+				<transform>
+					<row0>	1.0000 0.0000 0.0000 0.0000	</row0>
+					<row1>	0.0000 1.0000 0.0000 0.0000	</row1>
+					<row2>	0.0000 0.0000 1.0000 0.0000	</row2>
+					<row3>	0.0000 0.0000 0.0000 1.0000	</row3>
+				</transform>
+			</node>
 		</node>
-	</node>
-	<renderSet>
-		<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
-		<node>	JGA066_dead	</node>
-		<geometry>
-			<vertices>	JGA066_deadShape.vertices	</vertices>
-			<primitive>	JGA066_deadShape.indices	</primitive>
-			<primitiveGroup>	0
-				<material>
-					<identifier>	TL2_SHIPMAT_PBS_GunDead	</identifier>
-					<mfm>	PnFMods/HLV_Marine_Guepard_Mod/FSD106_Guepard/gun/FGA035_13_mm76_Hotchkiss_Mle_1930_dead.mfm	</mfm>
-				</material>
-			</primitiveGroup>
-		</geometry>
-	</renderSet>
+	</skeleton>
+	<properties>
+		<underwaterModel>	false	</underwaterModel>
+		<abovewaterModel>	true	</abovewaterModel>
+	</properties>
 	<boundingBox>
 		<min>	-0.0148 -0.0033 -0.0419	</min>
-		<max>	0.0142 0.1104 0.0686	</max>
+		<max>	0.0142 0.1103 0.0686	</max>
 	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>	JGA066_deadShape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	JGA066_dead	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_GunDead	</identifier>
+				<mfm>	PnFMods/HLV_Marine_Guepard_Mod/FSD106_Guepard/gun/FGA035_13_mm76_Hotchkiss_Mle_1930_dead.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	JGA066_dead_lod1Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	JGA066_dead	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_GunDead	</identifier>
+				<mfm>	PnFMods/HLV_Marine_Guepard_Mod/FSD106_Guepard/gun/FGA035_13_mm76_Hotchkiss_Mle_1930_dead.mfm	</mfm>
+			</material>
+		</renderSet>
+		<renderSet>
+			<name>	JGA066_dead_lod2Shape	</name>
+			<treatAsWorldSpaceObject>	false	</treatAsWorldSpaceObject>
+			<nodes>
+				<node>	JGA066_dead	</node>
+			</nodes>
+			<material>
+				<identifier>	TL2_SHIPMAT_PBS_GunDead	</identifier>
+				<mfm>	PnFMods/HLV_Marine_Guepard_Mod/FSD106_Guepard/gun/FGA035_13_mm76_Hotchkiss_Mle_1930_dead.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>	3.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	JGA066_deadShape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	6.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	JGA066_dead_lod1Shape	</renderSet>
+			</renderSets>
+		</lod>
+		<lod>
+			<extent>	15.0000	</extent>
+			<castsShadow>	true	</castsShadow>
+			<renderSets>
+				<renderSet>	JGA066_dead_lod2Shape	</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
 </FGA035_13_mm76_Hotchkiss_Mle_1930_dead.visual>

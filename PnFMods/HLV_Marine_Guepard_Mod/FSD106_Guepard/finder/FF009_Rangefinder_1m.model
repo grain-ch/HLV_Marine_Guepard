@@ -1,7 +1,6 @@
 <FF009_Rangefinder_1m.model>
-	<castsShadow>	false	</castsShadow>
-	<parent>	PnFMods/HLV_Marine_Guepard_Mod/FSD106_Guepard/finder/lods/FF009_Rangefinder_1m_lod1	</parent>
-	<extent>	1.0000	</extent>
-	<nodefullVisual>	PnFMods/HLV_Marine_Guepard_Mod/FSD106_Guepard/finder/FF009_Rangefinder_1m	</nodefullVisual>
-	<metaData>	Wargaming | Lesta Studio	</metaData>
+	<visual>	PnFMods/HLV_Marine_Guepard_Mod/FSD106_Guepard/finder/FF009_Rangefinder_1m.visual	</visual>
+	<animations />
+	<dyes />
+	<metaData>	Wargaming.net	</metaData>
 </FF009_Rangefinder_1m.model>

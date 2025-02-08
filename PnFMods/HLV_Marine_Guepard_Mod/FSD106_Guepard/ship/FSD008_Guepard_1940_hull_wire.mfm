@@ -1,13 +1,10 @@
 <FSD008_Guepard_1940_hull_wire.mfm>
-	<fx>	shaders/std_effects/PBS_wire.fx	</fx>
+	<fx>	shaders/materials/pbs/wire_material.fx	</fx>
 	<collisionFlags>	0	</collisionFlags>
 	<property>	diffuseMap
 		<Texture>	PnFMods/HLV_Marine_Guepard_Mod/FSD106_Guepard/ship/FSD008_Guepard_1940_hull_a.dds	</Texture>
 	</property>
 	<property>	metallicGlossMap
 		<Texture>	PnFMods/HLV_Marine_Guepard_Mod/FSD106_Guepard/ship/FSD008_Guepard_1940_hull_mg.dds	</Texture>
-	</property>
-	<property>	normalMap
-		<Texture>	PnFMods/HLV_Marine_Guepard_Mod/FSD106_Guepard/ship/FSD008_Guepard_1940_hull_n.dds	</Texture>
 	</property>
 </FSD008_Guepard_1940_hull_wire.mfm>
